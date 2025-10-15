@@ -1,0 +1,17 @@
+{
+  "timezone": "Africa/Lagos",
+  "calendar_name": "Our Calendar",
+  "attendees": [],
+  "reminders": [
+    { "method": "popup", "minutes": 15 },
+    { "method": "email", "minutes": 60 }
+  ],
+  "defaults": { "duration_minutes": 30 },
+  "week": {
+    "monday": {
+      "morning": { "time": "08:00", "title": "Morning heads-up" },
+      "afternoon": { "time": "13:00", "title": "Day check-in" },
+      "evening": { "time": "21:00", "title": "Night recap" }
+    }
+  }
+}
